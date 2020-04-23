@@ -1,0 +1,100 @@
+.content
+{
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+body
+{
+    background: linear-gradient(to right,rgb(228, 26, 160),rgb(91, 2, 150))
+}
+.text,.ptrn
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    background-color: rgba(255,255,255,0.6);
+    padding: 5px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: transparent;
+}
+.text::selection,.ptrn::selection
+{
+    color: rgba(255,255,255,1);
+    background-color: rgb(197, 19, 93);
+}
+
+.text:hover,.ptrn:hover
+{
+    transition: ease 500ms;
+    background-color: rgba(255,255,255,1);
+}
+.btn
+{
+    cursor: pointer;
+    padding: 6px;
+    border-color: transparent; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background:rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    opacity: 90%;
+}
+.btn:hover
+{
+    padding: 6px;
+    border-color: transparent; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background:rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    transition: ease 100ms;
+}
+.heading1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    letter-spacing: 12.5px;
+    text-transform : uppercase;
+}
+.heading2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:larger;
+    font-weight: 300;
+    letter-spacing: 29.5px;
+    text-transform : uppercase;
+}
+td
+{
+    text-align: right;
+    width: 200px;
+}
+td.left
+{
+    text-align: left;
+    width: 200px;
+}
+.result
+{
+    background: transparent;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size : 14px;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    opacity: 0;
+}
